@@ -8,3 +8,13 @@ How it works:
 - [x] TRIGGER FIRES WHEN UPLOADED TO THE _UPLOADS_ DIRECTORY
 - [x] THE LAMBDA FUNCTION RESIZES AND REDUCES THE SIZE TO 50% OF THE FILE
 - [x] THE RESULTING FILE IS STORED IN THE _COMPROSSED_ DIRECTORY
+
+## Instalation
+
+**_Use the javascript package manager npm_**
+
+```bash
+npm install
+```
+
+Lambda functions run on **LINUX** instances on aws servers. Therefore, it is necessary that the installation of the packages be done in such a way that it is compatible with the **LINUX** operating system. The command, **rmdir /Q /S node_modules && npm install --platform=linux --arch=x64 sharp** delete files installed on Windows OS and install for x64 architecture and **lINUX** OS
