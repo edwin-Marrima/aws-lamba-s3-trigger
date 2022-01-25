@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "sharp": "^0.29.3"
+  },
+  "name": "s3-bucket-lambda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "rmdir /Q /S node_modules && npm install --platform=linux --arch=x64 sharp",
+    "deploy": "serverless deploy --verbose",
+    "remove": "serverless remove"
+  },
+  "author": "Edwin Marrima",
+  "license": "ISC",
+  "description": ""
+}
