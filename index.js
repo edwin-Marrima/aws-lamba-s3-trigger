@@ -16,9 +16,7 @@ const optimazedImage = async (oldImage) => {
 };
 
 module.exports.handle = async (event) => {
-  console.log('AAAAAAAAAAAAA', event);
   const { Records: records } = event;
-  console.log('XXXXXXXXXXXXXXXXXX', records);
   try {
     await Promise.all(
       records.map(async (record) => {
