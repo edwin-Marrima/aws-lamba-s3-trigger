@@ -17,4 +17,4 @@ How it works:
 npm install
 ```
 
-Lambda functions run on **LINUX** instances on aws servers. Therefore, it is necessary that the installation of the packages be done in such a way that it is compatible with the **LINUX** operating system. The command, **rmdir /Q /S node_modules && npm install --platform=linux --arch=x64 sharp** delete files installed on Windows OS and install for x64 architecture and **lINUX** OS
+Lambda functions run on **LINUX** instances on aws servers. Therefore, it is necessary that the installation of the packages be done in such a way that it is compatible with the **LINUX** operating system. The command, **rmdir /Q /S node_modules && npm install --platform=linux --arch=x64 sharp** delete node_modules files installed on Windows OS and install for x64 architecture and **LINUX** OS
